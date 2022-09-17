@@ -7,276 +7,339 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
-<body>
-	<header>
-		<h1>Grande Guerra nelle Prealpi vicentine</h1>
-	</header>
-    <nav>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-			<a class="navbar-brand" href="index.htm">Home</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-			   <span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="dropdown">
-		   	 	<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-				    Catalogo
+	<body>
+		<header>
+			<h1>Grande Guerra nelle Prealpi vicentine</h1>
+		</header>
+	    <nav>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+				<a class="navbar-brand" href="index.htm">Home</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				   <span class="navbar-toggler-icon"></span>
 				</button>
-				<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="collezione.htm">Collezione</a></li>
-				    <li><a class="dropdown-item" href="#">Opere letterarie</a></li>
-				    <li><a class="dropdown-item" href="#">Opere pittoriche</a></li>
-				    <li><a class="dropdown-item" href="#">Opere fotografiche</a></li>
-				    <li><a class="dropdown-item" href="#">Opere commemorative</a></li>
-				    <li><a class="dropdown-item" href="#">Cimeli</a></li>
-				</ul>
-			</div>
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-			    <ul class="navbar-nav">
-			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Storia</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Luoghi</a>
-			      </li>			      			      
-			    </ul>
-			</div>
-			<div>
-			  	<form class="d-flex">
-			      	<input class="form-control" type="text" placeholder="Cerca...">
-			      	<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cerca</button>			        
-			      	<button class="btn btn-dark" type="button"><span class="text-nowrap">accedi</span></button>
-		        </form>
-		    </div>
-	</nav>
-	<br/>
-	<div>
-		<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-  			<ol class="breadcrumb">
-    			<li class="breadcrumb-item"><a href="index.htm">Home</a></li>
-    			<li class="breadcrumb-item active" aria-current="page">Collezione</li>
-  			</ol>
+				<div class="dropdown">
+			   	 	<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+					    Catalogo
+					</button>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="collezione.htm">Collezione</a></li>
+					    <li><a class="dropdown-item" href="#">Opere letterarie</a></li>
+					    <li><a class="dropdown-item" href="#">Opere pittoriche</a></li>
+					    <li><a class="dropdown-item" href="#">Opere fotografiche</a></li>
+					    <li><a class="dropdown-item" href="#">Opere commemorative</a></li>
+					    <li><a class="dropdown-item" href="#">Cimeli</a></li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				    <ul class="navbar-nav">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Storia</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Luoghi</a>
+				      </li>			      			      
+				    </ul>
+				</div>
+				<div>
+				  	<form class="d-flex">
+				      	<input class="form-control" type="text" placeholder="Cerca...">
+				      	<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cerca</button>			        
+				      	<button class="btn btn-dark" type="button"><span class="text-nowrap">accedi</span></button>
+			        </form>
+			    </div>
 		</nav>
-	</div>
-		<div class="container">
-  			<img src="img/settecroci.jpg" alt="Sette Croci Pasubio" style="width:100%;">
-  			<div class="content">
-    			<h1>Collezione</h1>
-    			<p>Naviga ora e scopri</p>
-  		</div>
-	</div>
-	<div>
-		<ul class="nav nav-tabs">
-  			<li class="nav-item">
-    			<a class="nav-link active" aria-current="page" href="index.htm">Home</a>
-  			</li>
-  			<li class="nav-item">
-   				<a class="nav-link" href="collezione.htm">Catalogo</a>
-  			</li>
-  			<li class="nav-item">
-    			<a class="nav-link" href="#">Opere letterarie</a>
-  			</li>
-  			<li class="nav-item">
-    			<a class="nav-link disabled">Opere pittoriche</a>
-  			</li>
-  			<li class="nav-item">
-    			<a class="nav-link disabled">Opere fotografiche</a>
-  			</li>
-  			<li class="nav-item">
-    			<a class="nav-link disabled">Opere commemorative</a>
-  			</li>
-  			<li class="nav-item">
-    			<a class="nav-link disabled">Cimeli</a>
-  			</li>
-		</ul>
-	</div>
-	<!--qui da inserire la checkbox bisogna capire come fare -->
-
-	<section>
-		<!-- qui inserisco item attraverso le card-->
-		<div class="container-fluid">
-	        <div class="row g-30">
-	            <div class="col-md-4">
-	            	<div class="card w-80">
-						<img class="card-img-top" src="img/ossario.jpg" alt="Ossario del Pasubio">
-						<div class="card-body">
-							<h5 class="card-title">Ossario del Pasubio</h5>
-							<p class="card-text">1926 - Pian delle Fugazze, 36030 Valli del Pasubio (VI)</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-	        	</div>
-	        	<div class="col-md-4">
-	            	<div class="card w-80">
-						<img class="card-img-top" src="img/ossidiseppiavalmorbia.jpg" alt="Eugenio Montale, Ossi di Seppia" width="auto" height="400px">
-						<div class="card-body">
-							<h5 class="card-title">Ossi di Seppia</h5>
-							<p class="card-text">Eugenio Montale - 1925</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-	        	</div>
-	        	<div class="col-md-4">
-	            	<div class="card w-80">
-						<img class="card-img-top" src="img/33compagniagallerie.jpg" alt="La 33esima compagnia all'avvio della costruzione delle 52 gallerie">
-						<div class="card-body">
-							<h5 class="card-title">La strada delle 52 Gallerie</h5>
-							<p class="card-text">1917 - Monte Pasubio</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-	        	</div>
-	        </div>
-	    </div>
-	    <div class="container-fluid">
-		    <div class="row g-30">
-		        <div class="col-md-4">
-		            <div class="card w-80">
-						<img class="card-img-top" src="img/unannoaltipiano.jpg" alt="Emilio Lussu, Un anno sull'altipiano">
-						<div class="card-body">
-							<h5 class="card-title">Un anno sull'altipiano</h5>
-							<p class="card-text">Emilio Lussu - 1938</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-		        </div>
-		        <div class="col-md-4">
-		            <div class="card w-80">
-						<img class="card-img-top" src="img/asiago.jpg" alt="Asiago, Prima Guerra Mondiale" width="auto" height="400px">
-						<div class="card-body">
-							<h5 class="card-title">Altopiano di Asiago</h5>
-							<p class="card-text">Prima Guerra Mondiale</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-		        </div>
-		        <div class="col-md-4">
-		            <div class="card w-80">
-						<img class="card-img-top" src="img/sacrariomilitareasiago.jpg" alt="Il sacrario militare di Asiago">
-						<div class="card-body">
-							<h5 class="card-title">Il sacrario militare di Asiago</h5>
-							<p class="card-text">1938</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-		        </div>
-		    </div>
-	   	</div>
-	   	<div class="container-fluid">
-		    <div class="row g-30">
-		        <div class="col-md-4">
-		            <div class="card w-80">
-						<img class="card-img-top" src="img/grappa.jpg" alt="Prima Guerra Mondiale sul Monte Grappa">
-						<div class="card-body">
-							<h5 class="card-title">Monte Grappa</h5>
-							<p class="card-text">Prima Guerra Mondiale</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-		        </div>
-		    	<div class="col-md-4">
-		            <div class="card w-80">
-						<img class="card-img-top" src="img/sacrariograppa.jpg" alt="Sacrario militare del Monte Grappa">
-						<div class="card-body">
-							<h5 class="card-title">Sacrario militare di Cima Grappa</h5>
-							<p class="card-text">1932</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-		        </div>
-		        <div class="col-md-4">
-		            <div class="card w-80">
-						<img class="card-img-top" src="img/ermesarditi.jpg" alt="Ermes Aurelio Rosa, Arditi sul Grappa">
-						<div class="card-body">
-							<h5 class="card-title">Arditi sul Grappa</h5>
-							<p class="card-text">Ermes Aurelio Rosa</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
+		<br/>
+		<div>
+			<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+	  			<ol class="breadcrumb">
+	    			<li class="breadcrumb-item"><a href="index.htm">Home</a></li>
+	    			<li class="breadcrumb-item active" aria-current="page">Collezione</li>
+	  			</ol>
+			</nav>
+		</div>
+			<div class="container">
+	  			<img src="img/settecroci.jpg" alt="Sette Croci Pasubio" style="width:100%;">
+	  			<div class="content">
+	    			<h1>Collezione</h1>
+	    			<p>Naviga ora e scopri</p>
+	  		</div>
+		</div>
+		<div>
+			<ul class="nav nav-tabs">
+	  			<li class="nav-item">
+	    			<a class="nav-link active" aria-current="page" href="index.htm">Home</a>
+	  			</li>
+	  			<li class="nav-item">
+	   				<a class="nav-link" href="collezione.htm">Catalogo</a>
+	  			</li>
+	  			<li class="nav-item">
+	    			<a class="nav-link" href="#">Opere letterarie</a>
+	  			</li>
+	  			<li class="nav-item">
+	    			<a class="nav-link disabled">Opere pittoriche</a>
+	  			</li>
+	  			<li class="nav-item">
+	    			<a class="nav-link disabled">Opere fotografiche</a>
+	  			</li>
+	  			<li class="nav-item">
+	    			<a class="nav-link disabled">Opere commemorative</a>
+	  			</li>
+	  			<li class="nav-item">
+	    			<a class="nav-link disabled">Cimeli</a>
+	  			</li>
+			</ul>
+		</div>
+		<!--qui da inserire la checkbox bisogna capire come fare -->
+		<br/>
+		<aside>
+			<p><strong>Filtra la ricerca per:</strong></p>
+			<div class="btn-group-vertical" role="group" aria-label="Vertical button group">			  
+			  <div class="btn-group" role="group">
+			    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+			      Persona
+			    </button>
+			    <ul class="dropdown-menu">
+			      <li><a class="dropdown-item" href="#">Eugenio Montale</a></li>
+			      <li><a class="dropdown-item" href="#">Emilio Lussu</a></li>
+			      <li><a class="dropdown-item" href="#">Ermes Aurelio Rosa</a></li>
+			      <li><a class="dropdown-item" href="#">Ubaldo Oppi</a></li>
+			      <li><a class="dropdown-item" href="#">Cesare Ricceri</a></li>
+			    </ul>
+			  </div>			  
+			  <div class="btn-group" role="group">
+			    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+			      Luogo
+			    </button>
+			    <ul class="dropdown-menu">
+			      <li><a class="dropdown-item" href="#">Monte Pasubio</a></li>
+			      <li><a class="dropdown-item" href="#">Gallio</a></li>
+			      <li><a class="dropdown-item" href="#">Monte Cimone</a></li>
+			    </ul>
+			  </div>
+			  <div class="btn-group" role="group">
+			    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+			      Data
+			    </button>
+			    <ul class="dropdown-menu">
+			      <li><a class="dropdown-item" href="#">1914</a></li>
+			      <li><a class="dropdown-item" href="#">1916</a></li>
+			      <li><a class="dropdown-item" href="#">1917</a></li>
+			      <li><a class="dropdown-item" href="#">1918</a></li>			      
+			      <li><a class="dropdown-item" href="#">1925</a></li>
+			      <li><a class="dropdown-item" href="#">1926</a></li>
+			      <li><a class="dropdown-item" href="#">1932</a></li>
+			      <li><a class="dropdown-item" href="#">1938</a></li>
+			    </ul>
+			  </div>			  
+			</div>
+		</aside>
+		<br/>
+		<section>
+			<!-- qui inserisco item attraverso le card-->
+			<div class="container-fluid">
+		        <div class="row g-30">
+		            <div class="col-md-4">
+		            	<div class="card w-80">
+							<img class="card-img-top" src="img/ossario.jpg" alt="Ossario del Pasubio"/>
+							<div class="card-body">
+								<h5 class="card-title">Ossario del Pasubio</h5>
+								<p class="card-text">1926 - Pian delle Fugazze, 36030 Valli del Pasubio (VI)</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+		        	</div>
+		        	<div class="col-md-4">
+		            	<div class="card w-80">
+							<img class="card-img-top" src="img/ossidiseppiavalmorbia.jpg" alt="Eugenio Montale, Ossi di Seppia" width="auto" height="400px"/>
+							<div class="card-body">
+								<h5 class="card-title">Ossi di Seppia</h5>
+								<p class="card-text">Eugenio Montale - 1925</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+		        	</div>
+		        	<div class="col-md-4">
+		            	<div class="card w-80">
+							<img class="card-img-top" src="img/33compagniagallerie.jpg" alt="La 33esima compagnia all'avvio della costruzione delle 52 gallerie"/>
+							<div class="card-body">
+								<h5 class="card-title">La strada delle 52 Gallerie</h5>
+								<p class="card-text">1917 - Monte Pasubio</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+		        	</div>
 		        </div>
 		    </div>
-	   	</div>
-	   	<div class="container-fluid">
-		    <div class="row g-30">
-		        <div class="col-md-4">
-		            <div class="card w-80">
-						<img class="card-img-top" src="img/sentierosilenzio.jpg" alt="Sentiero del Silenzio, Asiago">
-						<div class="card-body">
-							<h5 class="card-title">Sentiero del Silenzio ad Asiago</h5>
-							<p class="card-text">Loc. Campomuletto, 36032 Gallio (VI)</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-		        </div>
-		    	<div class="col-md-4">
-		            <div class="card w-80">
-						<img class="card-img-top" src="img/lafamigliadellalpinooppi18.jpg" alt="Ubaldo Oppi, 1918">
-						<div class="card-body">
-							<h5 class="card-title">La famiglia dell'alpino</h5>
-							<p class="card-text">Ubaldo Oppi, 1918</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-		        </div>
-		        <div class="col-md-4">
-		            <div class="card w-80">
-						<img class="card-img-top" src="img/elmetto.jpg" alt="Elmetto italiano, Prima Guerra Mondiale">
-						<div class="card-body">
-							<h5 class="card-title">Elmetto italiano</h5>
-							<p class="card-text">Prima Guerra Mondiale</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
+		    <div class="container-fluid">
+			    <div class="row g-30">
+			        <div class="col-md-4">
+			            <div class="card w-80">
+							<img class="card-img-top" src="img/unannoaltipiano.jpg" alt="Emilio Lussu, Un anno sull'altipiano"/>
+							<div class="card-body">
+								<h5 class="card-title">Un anno sull'altipiano</h5>
+								<p class="card-text">Emilio Lussu - 1938</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+			        </div>
+			        <div class="col-md-4">
+			            <div class="card w-80">
+							<img class="card-img-top" src="img/asiago.jpg" alt="Asiago, Prima Guerra Mondiale" width="auto" height="400px"/>
+							<div class="card-body">
+								<h5 class="card-title">Altopiano di Asiago</h5>
+								<p class="card-text">Prima Guerra Mondiale</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+			        </div>
+			        <div class="col-md-4">
+			            <div class="card w-80">
+							<img class="card-img-top" src="img/sacrariomilitareasiago.jpg" alt="Il sacrario militare di Asiago"/>
+							<div class="card-body">
+								<h5 class="card-title">Il sacrario militare di Asiago</h5>
+								<p class="card-text">1938</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+			        </div>
+			    </div>
+		   	</div>
+		   	<div class="container-fluid">
+			    <div class="row g-30">
+			        <div class="col-md-4">
+			            <div class="card w-80">
+							<img class="card-img-top" src="img/grappa.jpg" alt="Prima Guerra Mondiale sul Monte Grappa"/>
+							<div class="card-body">
+								<h5 class="card-title">Monte Grappa</h5>
+								<p class="card-text">Prima Guerra Mondiale</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+			        </div>
+			    	<div class="col-md-4">
+			            <div class="card w-80">
+							<img class="card-img-top" src="img/sacrariograppa.jpg" alt="Sacrario militare del Monte Grappa"/>
+							<div class="card-body">
+								<h5 class="card-title">Sacrario militare di Cima Grappa</h5>
+								<p class="card-text">1932</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+			        </div>
+			        <div class="col-md-4">
+			            <div class="card w-80">
+							<img class="card-img-top" src="img/ermesarditi.jpg" alt="Ermes Aurelio Rosa, Arditi sul Grappa"/>
+							<div class="card-body">
+								<h5 class="card-title">Arditi sul Grappa</h5>
+								<p class="card-text">Ermes Aurelio Rosa</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+			        </div>
+			    </div>
+		   	</div>
+		   	<div class="container-fluid">
+			    <div class="row g-30">
+			        <div class="col-md-4">
+			            <div class="card w-80">
+							<img class="card-img-top" src="img/sentierosilenzio.jpg" alt="Sentiero del Silenzio, Asiago"/>
+							<div class="card-body">
+								<h5 class="card-title">Sentiero del Silenzio ad Asiago</h5>
+								<p class="card-text">Loc. Campomuletto, 36032 Gallio (VI)</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+			        </div>
+			    	<div class="col-md-4">
+			            <div class="card w-80">
+							<img class="card-img-top" src="img/lafamigliadellalpinooppi18.jpg" alt="Ubaldo Oppi, 1918"/>
+							<div class="card-body">
+								<h5 class="card-title">La famiglia dell'alpino</h5>
+								<p class="card-text">Ubaldo Oppi, 1918</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+			        </div>
+			        <div class="col-md-4">
+			            <div class="card w-80">
+							<img class="card-img-top" src="img/elmetto.jpg" alt="Elmetto italiano, Prima Guerra Mondiale"/>
+							<div class="card-body">
+								<h5 class="card-title">Elmetto italiano</h5>
+								<p class="card-text">Prima Guerra Mondiale</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+			        </div>
+			    </div>
+		   	</div>
+		   	<div class="container-fluid">
+			    <div class="row g-30">
+			        <div class="col-md-4">
+			            <div class="card w-80">
+							<img class="card-img-top" src="img/artiglieria.jpg" alt="Artiglieria"/>
+							<div class="card-body">
+								<h5 class="card-title">Artiglieria</h5>
+								<p class="card-text">Prima Guerra Mondiale</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+			        </div>
+			    	<div class="col-md-4">
+			            <div class="card w-80">
+							<img class="card-img-top" src="img/gallerie.jpg" alt="le 52 gallerie"/>
+							<div class="card-body">
+								<h5 class="card-title">Le 52 gallerie del Pasubio</h5>
+								<p class="card-text">1917</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+			        </div>
+			        <div class="col-md-4">
+			            <div class="card w-80">
+							<img class="card-img-top" src="img/fidanzati_oppi.jpg" alt="Ubaldo Oppi fidanzati"/>
+							<div class="card-body">
+								<h5 class="card-title">I Fidanzati</h5>
+								<p class="card-text">Ubaldo Oppi, 1914</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+			        </div>
+			    </div>
+		   	</div>
+		   	<div class="container-fluid">
+		        <div class="row g-30">
+		            <div class="col-md-4">
+		            	<div class="card w-80">
+							<img class="card-img-top" src="img/letteraallamadre.jpg" alt="Lettera di un soldato alla madre"/>
+							<div class="card-body">
+								<h5 class="card-title">Lettera di un soldato alla madre</h5>
+								<p class="card-text">Cesare Ricceri - 1916 - Monte Cimone di Tonezza (VI)</p>
+								<a class="btn btn-primary">Visualizza item</a>
+							</div> 
+						</div>
+		        	</div>
+		        	<div class="col-md-4">		            	
+		        	</div>
+		        	<div class="col-md-4">		            	
+		        	</div>
 		        </div>
 		    </div>
-	   	</div>
-	   	<div class="container-fluid">
-		    <div class="row g-30">
-		        <div class="col-md-4">
-		            <div class="card w-80">
-						<img class="card-img-top" src="img/artiglieria.jpg" alt="Artiglieria">
-						<div class="card-body">
-							<h5 class="card-title">Artiglieria</h5>
-							<p class="card-text">Prima Guerra Mondiale</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-		        </div>
-		    	<div class="col-md-4">
-		            <div class="card w-80">
-						<img class="card-img-top" src="img/gallerie.jpg" alt="le 52 gallerie">
-						<div class="card-body">
-							<h5 class="card-title">Le 52 gallerie del Pasubio</h5>
-							<p class="card-text">1917</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-		        </div>
-		        <div class="col-md-4">
-		            <div class="card w-80">
-						<img class="card-img-top" src="img/fidanzati_oppi.jpg" alt="Ubaldo Oppi fidanzati">
-						<div class="card-body">
-							<h5 class="card-title">I Fidanzati</h5>
-							<p class="card-text">Ubaldo Oppi, 1914</p>
-							<a class="btn btn-primary">Visualizza item</a>
-						</div> 
-					</div>
-		        </div>
-		    </div>
-	   	</div>
-	</section>
-	<!--provo ad inserire qui una page navigation da mettere alla fine degli item, così facciamo vedere che abbiamo sperimentato-->
-	<nav aria-label="Page navigation example">
-  		<ul class="pagination">
-    		<li class="page-item"><a class="page-link" href="#">Precedente</a></li>
-   			<li class="page-item"><a class="page-link" href="#">1</a></li>
-    		<li class="page-item"><a class="page-link" href="#">2</a></li>
-    		<li class="page-item"><a class="page-link" href="#">3</a></li>
-    		<li class="page-item"><a class="page-link" href="#">Successivo</a></li>
-  		</ul>
-	</nav>
-	<footer>
-		<!--quando Footer è pronto nel file index basta copiare e incollare qui il footer-->
-	</footer>
-	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-</body>
+		</section>
+		<br/>
+		<br/>
+		<!--provo ad inserire qui una page navigation da mettere alla fine degli item, così facciamo vedere che abbiamo sperimentato-->
+		<nav aria-label="Page navigation example">
+	  		<ul class="pagination">
+	    		<li class="page-item"><a class="page-link" href="#">Precedente</a></li>
+	   			<li class="page-item"><a class="page-link" href="#">1</a></li>
+	    		<li class="page-item"><a class="page-link" href="#">2</a></li>
+	    		<li class="page-item"><a class="page-link" href="#">3</a></li>
+	    		<li class="page-item"><a class="page-link" href="#">Successivo</a></li>
+	  		</ul>
+		</nav>
+		<footer>
+			<!--quando Footer è pronto nel file index basta copiare e incollare qui il footer-->
+		</footer>
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>
