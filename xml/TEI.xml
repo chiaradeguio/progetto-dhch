@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Un anno sull'Altipiano</title>
+				<author>Emilio Lussu</author>
+				<respStmt>
+					<resp>editor</resp>
+					<name xml:id="CDG">Chiara De Guio</name>
+					<resp>editor</resp>
+					<name xml:id="FM">Flavia Meneguzzo</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Alma Mater Studiorum - Università degli studi di Bologna</publisher>
+				<adress>Bologna</adress>
+				<aviability>Questa testo è liberamente consultabile</aviability>	
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Un anno sull'Altipiano</title>
+					<author>Emilio Lussu</author>
+					<date>1938</date>
+					<publisher>Einaudi</publisher>					
+				</bibl>	
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>			
+				<p>Il testo si presenta come testimonianza degli avvenimenti bellici avvenuti sull'altopiano di Asiago tra il 1916 e il 1917</p>			
+		</encodingDesc>
+	</teiHeader>
+	<text xml:lang="it">
+		<body>
+			<div type="Capitolo"> 
+				<head>III</head>			
+				<p n="1">Sui margini dell’
+				<choice>
+					<orig>Altipiano</orig>
+					<reg resp="#CDG">altopiano</reg>
+				</choice>
+				, a 
+				<num value="1000" resp="FM">mille</num>
+				metri, 
+				<choice>
+					<orig>v’era</orig>
+				    <reg resp="#CDG">c'era</reg>
+				</choice> 
+				il piú grande disordine. Noi vi eravamo arrivati,
+				<date>il 5 giugno</date>
+				, per la 
+				<name type="place">Val Frenzela</name>, partendo da 
+				<name type="place">Valstagna</name>
+				, con le misure di sicurezza d’avanguardia, perché non era chiaro dove fossero i nostri e dove gli austriaci. Il 
+				<term>reggimento</term>
+				si schierò fra le pendici di 
+				<name type="place">Stoccaredo</name> e la strada 
+				<name type="place">Gallio</name> 
+				<name type="place">Foza</name>, e il mio 
+				<term>battaglione</term> 
+				prese posizione al 
+				<name type="place">Buso</name>, minuscolo villaggio che sbarra lo sbocco di 
+				<name type="place">Val Frenzela</name>.Gli 
+				<term>avamposti</term>
+				furono collocati nella conca, verso 
+				<name type="place">Ronchi</name>, a caso, sulle vie da cui potevano provenire le avanguardie nemiche. Sapevamo solo che esse, traversata la 
+				<name type="place">Val d’Assa</name> e conquistato 
+				<name type="place">Asiago</name>, si spingevano innanzi, a ventaglio, al di qua di 
+				<name type="place">Gallio</name>. Mi si diceva che, fra noi e loro, vi fosse ancora, sperduto, qualche reparto italiano. Quello ch’era certo è che il nemico sfruttava audacemente il successo: nella conca d’
+				<name type="place">Asiago</name>, numerose batterie da campagna manovravano 
+				<time>in pieno giorno</time>
+				. Tutta la nostra 
+				<term>artiglieria</term>
+				era caduta in mano del nemico: noi non ne avevamo piú, su tutto l’
+				<choice>
+					<orig>Altipiano</orig>
+				    <reg resp="#CDG">altopiano</reg>
+				</choice>
+				, neppure un pezzo. Solamente, dal 
+				<name type="place">forte Lisser</name>
+				, vecchio forte smantellato fin dal 
+				<date>1915</date>
+				, tiravano due pezzi da 149, e sempre sui nostri
+				<rendition resp="FM" >soldati</rendition>
+				. Fortunatamente, gran parte delle granate non esplodevano, e noi non avemmo perdite. 
+				<time>Qualche giorno dopo</time>
+				, quel 
+				<term>forte</term>
+				fu battezzato, dai nostri corrispondenti di guerra, il «
+				<name type="place">Leone dell'Altipiano</name>
+				».</p>
+			</div>
+		</body>
+	</text>
+</TEI>
