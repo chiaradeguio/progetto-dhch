@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <collezione xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="Grande Guerra nelle Prealpi Vicentine">
-    <item id="un anno sull'Altipiano" xml:id="guerra-unannosull'altipiano">
+    <item id="un anno sull'Altipiano" xml:id="Grande Guerra nelle Prealpi vicentine-unannosull'altipiano">
         <dc:title>Un anno sull'Altipiano</dc:title>
         <dc:creator>Emilio Lussu</dc:creator>        
         <dc:description xml:lang="it">
-        <creator>Emilio Lussu</creator>, scrittore e politico originario della Sardegna, descrive in questo libro gli avvenimenti e la vita dei soldati della Brigata Sassari tra il giugno 1916 e il luglio 1917, in guerra sull'Altipiano di Asiago. Durante questi mesi era infatti in corso l'offensiva austriaca, la famosa "Strafexpedition". La vita in trincea e le sofferenze della guerra, provate dall’autore in prima persona, sono raccontate senza filtri. Il testo è considerato una tra le prime e maggiori opere di “narrativa di guerra”. Il racconto di Lussu si interrompe prima della rotta di Caporetto. <creator>Lussu</creator> evidenziacosì l’irrazionalità e il non-senso della guerra, dimostrando un atteggiamento antimilitarista. "Il lettore non troverà, in questo libro, né il romanzo, né la storia. Sono ricordi personali, riordinati alla meglio e limitati ad un anno, fra i quattro di guerra ai quali ho preso parte. Io non ho raccontato che quello che ho visto e mi ha maggiormente colpito. Non alla fantasia ho fatto appello, ma alla mia memoria; e i miei compagni d’arme, anche attraverso qualche nome trasformato, ri-conosceranno facilmente uomini e fatti" <creator>Emilio Lussu</creator>, Clavadel-Davos, aprile 1937. Di seguito uno stralcio significativo del libro:      
+        Emilio Lussu, scrittore e politico originario della Sardegna, descrive in questo libro gli avvenimenti e la vita dei soldati della Brigata Sassari tra il giugno 1916 e il luglio 1917, in guerra sull'Altipiano di Asiago. Durante questi mesi era infatti in corso l'offensiva austriaca, la famosa "Strafexpedition". La vita in trincea e le sofferenze della guerra, provate dall’autore in prima persona, sono raccontate senza filtri. Il testo è considerato una tra le prime e maggiori opere di “narrativa di guerra”. Il racconto di Lussu si interrompe prima della rotta di Caporetto. Lussu evidenziacosì l’irrazionalità e il non-senso della guerra, dimostrando un atteggiamento antimilitarista. "Il lettore non troverà, in questo libro, né il romanzo, né la storia. Sono ricordi personali, riordinati alla meglio e limitati ad un anno, fra i quattro di guerra ai quali ho preso parte. Io non ho raccontato che quello che ho visto e mi ha maggiormente colpito. Non alla fantasia ho fatto appello, ma alla mia memoria; e i miei compagni d’arme, anche attraverso qualche nome trasformato, ri-conosceranno facilmente uomini e fatti" Emilio Lussu, Clavadel-Davos, aprile 1937. Di seguito uno stralcio significativo del libro:      
      	</dc:description>
         <dc:date>1938</dc:date>
-        <dc:publisher type="ed-item">Einaudi</dc:publisher>
+        <dc:publisher>Einaudi</dc:publisher>
         <dc:type>Libro a stampa</dc:type>
         <dc:format>Materiale a stampa</dc:format>
         <dc:language>Italiano</dc:language>
