@@ -1,24 +1,31 @@
 header {
   padding: 30px;
 }
+
 h1 {
   font-family: Georgia, serif;
 } 
+
+/*Navbar*/
+
 nav {
   padding: 10px;
   margin-right: 10px;
   border: 2px groove;
-  border-radius: 8px;
+  border-radius: 8px;    
 }
+
 #navbarform {
   padding: 10px;
   border: 2px groove;
   border-radius: 8px;
-  margin-right: 10px;
+  margin-right: 10px;    
 }
+
 #home {
   margin-left: 10px;
 }
+
 #accedi {
   margin-left: 40px;
   margin-right: 10px;
@@ -48,27 +55,31 @@ nav {
   height:600px;
 }
 
-/*FOOTER è UN PROBLEMA*/
+/*Titoli secondo livello*/
+
+h2 {
+  color: darkgoldenrod;
+}
+
+/*FOOTER*/
 #containerfooter, footer {
-  background-color: #e6e6ff;
-}
-nav, #navbar, footer {
   background-color: darkgoldenrod;
-}
- {
-  background-color: antiquewhite;
 }
 
 
 /*form newsletter*/
 form {
   border: none;
-  background-color: #e6e6ff;
+  background-color: none;
 }
 
 .container {
   padding: 20px;
   background-color: #f1f1f1;
+}
+
+#containernewsletter {
+  background-color: #ffcc33;
 }
 
 input[type=text], input[type=submit] {
@@ -117,3 +128,30 @@ input[type=submit]:hover {
   margin: bottom;
 }
 
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+<!--metto qui css x file collezione sotto le briciol -->
+
+.container {
+  position: relative;
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+.container .content {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%; 
+  padding: 20px; 
+}
