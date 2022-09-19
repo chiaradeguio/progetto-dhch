@@ -15,6 +15,7 @@ nav {
   border-radius: 8px;    
 }
 
+
 #navbarform {
   padding: 10px;
   border: 2px groove;
@@ -25,12 +26,16 @@ nav {
 #home {
   margin-left: 10px;
 }
-
+#catalogo {
+  background-color: #ffcc33;
+}
 #accedi {
   margin-left: 40px;
   margin-right: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
+  background-color: #ffcc33;
+  color: white;
 }
 #carouselExampleCaptions {
   border-top-width:5px;
