@@ -1,10 +1,15 @@
+
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+* {
+  font-family: 'Signika Negative', sans-serif;
+} 
+
 header {
   padding: 30px;
 }
-
-h1 {
-  font-family: Georgia, serif;
-} 
+ 
 
 /*Navbar*/
 
