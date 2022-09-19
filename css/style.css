@@ -1,29 +1,21 @@
 /*google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 
-/*Generale*/
 
-p {
-  margin: 30px;
-}
 
 * {
   font-family: 'Signika Negative', sans-serif;
-} 
+}
+
+
 
 header {
   padding: 30px;
 }
 
-.container {
-  position: relative;
-  max-width: 800px; 
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f1f1f1; 
-}
-
 /*Navbar*/
+
+
 
 nav {
   padding: 10px;
@@ -33,6 +25,8 @@ nav {
 }
 
 
+
+
 #navbarform {
   padding: 10px;
   border: 2px groove;
@@ -40,12 +34,20 @@ nav {
   margin-right: 10px;    
 }
 
+
+
 #home {
   margin-left: 10px;
 }
+
+
+
 #catalogo {
   background-color: #ffcc33;
 }
+
+
+
 #accedi {
   margin-left: 40px;
   margin-right: 10px;
@@ -54,40 +56,60 @@ nav {
   background-color: #ffcc33;
   color: white;
 }
+
+
+
 #carouselExampleCaptions {
-  border-top:5px;    
+  border-top: 5px;  
   border-bottom: 5px;
   margin: auto;
   width: 70%;
   padding: 10px;
 }
 
-#carouselExampleCaptions h5 {
-  text-decoration-thickness: 5px;
-  background-color: whitesmoke;  
-  color:#B8860B;
-}
 
-#carouselExampleCaptions p {  
+
+#carouselExampleCaptions h5 {
+  text-decoration-style: solid;
+  text-decoration-thickness: 5px;
   background-color: whitesmoke;
   color:#B8860B;
 }
+
+
+
+#carouselExampleCaptions p {
+  text-decoration-style: solid;
+  color:#B8860B;
+  background-color: whitesmoke;
+}
+
+
 
 #carouselExampleCaptions img {
   width:500px;
   height:600px;
 }
 
+
+
 /*Titoli secondo livello*/
+
+
 
 h2 {
   color: darkgoldenrod;
 }
 
+
+
 /*FOOTER*/
 #containerfooter, footer {
   background-color: darkgoldenrod;
 }
+
+
+
 
 /*form newsletter*/
 form {
@@ -95,9 +117,20 @@ form {
   background-color: none;
 }
 
+
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+
+
 #containernewsletter {
   background-color: #ffcc33;
 }
+
+
 
 input[type=text], input[type=submit] {
   width: 100%;
@@ -108,9 +141,13 @@ input[type=text], input[type=submit] {
   box-sizing: border-box;
 }
 
+
+
 input[type=checkbox] {
   margin-top: 16px;
 }
+
+
 
 input[type=submit] {
   background-color: #e6e6ff;
@@ -118,28 +155,86 @@ input[type=submit] {
   border: none;
 }
 
+
+
 input[type=submit]:hover {
   opacity: 0.8;
 }
 
-/*metto qui x file collezione sotto le briciole*/
+
+
+/*metto qui css x file collezione sotto le briciol*/
+
+
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
 
 .container .content {
-  position: absolute; 
-  bottom: 0; 
-  background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.5); 
-  color: #f1f1f1; 
-  width: 80%; 
-  padding: 10px; 
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 80%;
+  padding: 10px;
 }
+
+
 
 #frecciasu {
   float: right;
   margin: bottom;
 }
 
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+
+/*metto qui css x file collezione sotto le briciol*/
+
+
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
 /*item Emilio Lussu*/
+
+
 
 #containeritemlussu {
   border: 2px solid darkgoldenrod;
@@ -147,13 +242,15 @@ input[type=submit]:hover {
   font-size: 18px;
 }
 
+
+
 #containeritememilio {
   border: 2px solid darkgoldenrod;
   background-color: #ffebcc;
   font-size: 18px;
 }
 
-/*item Oppi*/
+
 
 #containeroppi {
   border: 2px solid darkgoldenrod;
@@ -163,4 +260,18 @@ input[type=submit]:hover {
 #fidanzati {
   padding: 10px;
   margin-left: 70px;
+}
+
+
+
+/*Altro*/
+
+
+
+
+p {
+  margin: 30px;
+
+
+
 }
