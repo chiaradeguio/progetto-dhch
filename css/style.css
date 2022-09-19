@@ -155,3 +155,25 @@ input[type=submit]:hover {
   width: 100%; 
   padding: 20px; 
 }
+
+<!--item Emilio Lussu -->
+
+#containeritemlussu {
+  border: 2px solid darkgoldenrod;
+  background-color: #ffffff;
+  font-size: 18px;
+}
+
+#containeritememilio {
+  border: 2px solid darkgoldenrod;
+  background-color: #ffebcc;
+  font-size: 18px;
+}
+
+<!--Altro -->
+
+
+p {
+  margin: 30px;
+
+}
